@@ -1,0 +1,22 @@
+export const spiderImages = [
+  'mini-spider.jpg',
+  'mini-spider.jpg',
+  'spider-alreves.png',
+  'spider-alreves.png',
+  'spider-saltov2.webp',
+  'spider-saltov2.webp',
+  'spider-meme.png',
+  'spider-meme.png',
+  'spider-pared.jpg',
+  'spider-pared.jpg',
+  'spider-paredv2.png',
+  'spider-paredv2.png',
+  'spider-red.jpg',
+  'spider-red.jpg',
+  'spider-salto.png',
+  'spider-salto.png',
+  'spider-seña.png',
+  'spider-seña.png',
+  'spider-telara.png',
+  'spider-telara.png'
+]

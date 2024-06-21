@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Spiderman';
+  src: url('./../public/The-Amazing-Spider-Man.ttf');
+}
+
+body {
+  font-family: Spiderman;
+  @apply bg-black
+  text-white font-semibold;
+}
+
+button {
+  @apply bg-red-700 
+  border-2 
+  border-red-950 
+  text-white 
+  p-2 
+  rounded-md hover:bg-white hover:text-red-700 font-semibold;
+  transition: background 0.3s;
+}
