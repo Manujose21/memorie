@@ -2,12 +2,12 @@
   <template v-for="memorie in memories" :key="memorie.id">
     <img
       v-if="memorie.isVisible"
-      :src="`../assets/images/${memorie.pathImg}`"
+      :src="`../../public/images/${memorie.pathImg}`"
       class="border-2 my-2 mx-2 h-20 w-16 md:h-28 md:w-24 rounded-md object-cover border-red-600"
     />
     <img
       v-else
-      :src="`../assets/images/${memorie.defaultImg}`"
+      :src="`../../public/images/${memorie.defaultImg}`"
       alt=""
       @click="emits('onSelectCard', memorie)"
       class="border-2 my-2 mx-2 h-20 w-16 md:h-28 md:w-24 rounded-md object-cover border-red-600"
